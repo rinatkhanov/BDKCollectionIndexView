@@ -238,7 +238,7 @@
 }
 
 - (UIFont *)font {
-    return _font ? _font : [UIFont boldSystemFontOfSize:12.0f];
+    return _font ? _font : [UIFont systemFontOfSize:13.5f];
 }
 
 - (void)setFont:(UIFont *)font {
